@@ -1,1 +1,1 @@
-# 03-jupyter-nbgrader-r
+# Jupyter nbgrader demo
