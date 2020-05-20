@@ -1,8 +1,8 @@
 # Jupyter nbgrader demo
 
-- R Notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ttimbers/jupyter-demo/master?filepath=jupyter-nbgrader-r%2Frelease%2Fworksheet_01_r%2Fworksheet_01_r.ipynb)
+- Student-like R Notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ttimbers/jupyter-demo/master?filepath=jupyter-nbgrader-r%2Frelease%2Fworksheet_01_r%2Fworksheet_01_r.ipynb)
 
-- Python Notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ttimbers/jupyter-demo/master?filepath=jupyter-nbgrader-python%2Frelease%2Fworksheet_01_python%2Fworksheet_01_python.ipynb)
+- Student-like Python Notebook: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ttimbers/jupyter-demo/master?filepath=jupyter-nbgrader-python%2Frelease%2Fworksheet_01_python%2Fworksheet_01_python.ipynb)
 
 Binder-enabled demo of R and Python notebooks that have automated feedback. Built for the "Feed me back now: Tales of automated feedback in R and Python" talk by Mine Çetinkaya-Rundel (University of Edinburgh, Duke University, RStudio) & Tiffany Timbers (UBC) delivered at [eCOTS 2020](https://www.causeweb.org/cause/ecots/ecots20/breakouts/9).
 
