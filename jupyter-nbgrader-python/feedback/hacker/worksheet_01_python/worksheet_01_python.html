@@ -13656,7 +13656,7 @@ NameError: name 't' is not defined</code></pre>
   <div class="prompt input_prompt">
 </div><div class="inner_cell">
     <div class="text_cell_render border-box-sizing rendered_html">
-      <h3 id="Question-2.3---load-the-dataset-into-R">Question 2.3 - load the dataset into R<a class="anchor-link" href="#Question-2.3---load-the-dataset-into-R">&#182;</a></h3><p>{points: 1}</p>
+      <h3 id="Question-2.3---load-the-dataset">Question 2.3 - load the dataset<a class="anchor-link" href="#Question-2.3---load-the-dataset">&#182;</a></h3><p>{points: 1}</p>
 <p>The data set we are loading is called <code>race_times.csv</code> and it contains a subset of the data from the study described above. The file is in the same directory/folder as the file for this notebook. It is a comma separated file (meaning the columns are separated by the <code>,</code> character).</p>
 <p>Fill in the <code>...</code> in the cell below to load this data into Python. To do this use the <code>pd.read_csv()</code> function. Doing this will save the data from <code>race_times.csv</code> to an object called <code>race_times</code>.</p>
 <p>If you need additional help try <code>?pd.read_csv</code> and/or ask your neighbours or the Instructional team for help.</p>
@@ -13834,6 +13834,7 @@ NameError: name 't' is not defined</code></pre>
 <span class="n">race_times_women</span> <span class="o">=</span> <span class="n">race_times_women</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
 <span class="n">race_times_women</span><span class="p">[</span><span class="s1">&#39;km5_time_minutes&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">race_times_women</span><span class="p">[</span><span class="s1">&#39;km5_time_seconds&#39;</span><span class="p">]</span> <span class="o">/</span> <span class="mi">60</span>
 
+
 <span class="n">race_times_women</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -14009,10 +14010,10 @@ NameError: name 't' is not defined</code></pre>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-d9a2659f327f47f69b3cce15df65e4eb"></div>
+<div id="altair-viz-d9051a040b9f4719b0f9cf69918d854a"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-d9a2659f327f47f69b3cce15df65e4eb");
+    const outputDiv = document.getElementById("altair-viz-d9051a040b9f4719b0f9cf69918d854a");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -14193,7 +14194,7 @@ NameError: name 't' is not defined</code></pre>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># run this cell to test your answer to the question above</span>
 <span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg"> </span>t<span class="ansi-blue-fg">.</span>test_2_6<span class="ansi-blue-fg">(</span>answer2_6<span class="ansi-blue-fg">)</span>
 
-<span class="ansi-green-fg">~/Documents/feed-me-back/examples/04-jupyter-nbgrader-python/autograded/hacker/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_6</span><span class="ansi-blue-fg">(answer)</span>
+<span class="ansi-green-fg">~/Documents/jupyter-demo/jupyter-nbgrader-python/autograded/hacker/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_6</span><span class="ansi-blue-fg">(answer)</span>
 <span class="ansi-green-intense-fg ansi-bold">     61</span>     answer <span class="ansi-blue-fg">=</span> answer<span class="ansi-blue-fg">.</span>upper<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
 <span class="ansi-green-intense-fg ansi-bold">     62</span>     assert sha1(str(answer + &#34;X&#34;).encode(&#39;utf8&#39;)).hexdigest(
 <span class="ansi-green-fg">---&gt; 63</span><span class="ansi-red-fg">     ) == &#39;fe09563e3a1b9f78674fe92fcb5b526a1b9353d8&#39;, &#34;Your answer is incorrect. You should indicate the index corresponding to the wrongly labled sample&#34;

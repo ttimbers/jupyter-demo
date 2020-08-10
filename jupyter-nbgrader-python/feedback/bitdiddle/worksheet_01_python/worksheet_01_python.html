@@ -13650,7 +13650,7 @@ NameError: name 't' is not defined</code></pre>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># run this cell to test your answer to the question above</span>
 <span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg"> </span>t<span class="ansi-blue-fg">.</span>test_2_2<span class="ansi-blue-fg">(</span>answer2_2<span class="ansi-blue-fg">)</span>
 
-<span class="ansi-green-fg">~/Documents/feed-me-back/examples/04-jupyter-nbgrader-python/autograded/bitdiddle/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_2</span><span class="ansi-blue-fg">(answer)</span>
+<span class="ansi-green-fg">~/Documents/jupyter-demo/jupyter-nbgrader-python/autograded/bitdiddle/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_2</span><span class="ansi-blue-fg">(answer)</span>
 <span class="ansi-green-intense-fg ansi-bold">     15</span>     <span class="ansi-green-fg">assert</span> answer <span class="ansi-green-fg">is</span> <span class="ansi-green-fg">not</span> <span class="ansi-green-fg">None</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;You should assign a value of &#34;A&#34;, &#34;B&#34;, &#34;C&#34;, or &#34;D&#34; to the answer2_2 object.&#39;</span>
 <span class="ansi-green-intense-fg ansi-bold">     16</span>     answer <span class="ansi-blue-fg">=</span> answer<span class="ansi-blue-fg">.</span>upper<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
 <span class="ansi-green-fg">---&gt; 17</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">assert</span> sha1<span class="ansi-blue-fg">(</span>str<span class="ansi-blue-fg">(</span>answer<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>encode<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#39;utf8&#39;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>hexdigest<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span> <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#39;32096c2e0eff33d844ee6d675407ace18289357d&#39;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;Your answer is incorrect.&#34;</span> <span class="ansi-red-fg"># we hid the answer to the test here so you can&#39;t see it, but we can still run the test</span>
@@ -13669,7 +13669,7 @@ NameError: name 't' is not defined</code></pre>
   <div class="prompt input_prompt">
 </div><div class="inner_cell">
     <div class="text_cell_render border-box-sizing rendered_html">
-      <h3 id="Question-2.3---load-the-dataset-into-R">Question 2.3 - load the dataset into R<a class="anchor-link" href="#Question-2.3---load-the-dataset-into-R">&#182;</a></h3><p>{points: 1}</p>
+      <h3 id="Question-2.3---load-the-dataset">Question 2.3 - load the dataset<a class="anchor-link" href="#Question-2.3---load-the-dataset">&#182;</a></h3><p>{points: 1}</p>
 <p>The data set we are loading is called <code>race_times.csv</code> and it contains a subset of the data from the study described above. The file is in the same directory/folder as the file for this notebook. It is a comma separated file (meaning the columns are separated by the <code>,</code> character).</p>
 <p>Fill in the <code>...</code> in the cell below to load this data into Python. To do this use the <code>pd.read_csv()</code> function. Doing this will save the data from <code>race_times.csv</code> to an object called <code>race_times</code>.</p>
 <p>If you need additional help try <code>?pd.read_csv</code> and/or ask your neighbours or the Instructional team for help.</p>
@@ -13847,6 +13847,7 @@ NameError: name 't' is not defined</code></pre>
 <span class="n">race_times_women</span> <span class="o">=</span> <span class="n">race_times_women</span><span class="o">.</span><span class="n">dropna</span><span class="p">()</span>
 <span class="n">race_times_women</span><span class="p">[</span><span class="s1">&#39;km5_time_minutes&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">race_times_women</span><span class="p">[</span><span class="s1">&#39;km5_time_seconds&#39;</span><span class="p">]</span> <span class="o">/</span> <span class="mi">60</span>
 
+
 <span class="n">race_times_women</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 
@@ -14022,10 +14023,10 @@ NameError: name 't' is not defined</code></pre>
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 
-<div id="altair-viz-178bdb95f4de4837b601dac991da0e1c"></div>
+<div id="altair-viz-fb5062be43684df4a5ae25b7e474aea0"></div>
 <script type="text/javascript">
   (function(spec, embedOpt){
-    const outputDiv = document.getElementById("altair-viz-178bdb95f4de4837b601dac991da0e1c");
+    const outputDiv = document.getElementById("altair-viz-fb5062be43684df4a5ae25b7e474aea0");
     const paths = {
       "vega": "https://cdn.jsdelivr.net/npm//vega@5?noext",
       "vega-lib": "https://cdn.jsdelivr.net/npm//vega-lib?noext",
@@ -14112,7 +14113,7 @@ NameError: name 't' is not defined</code></pre>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># run this cell to test your answer to the question above</span>
 <span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg"> </span>t<span class="ansi-blue-fg">.</span>test_2_5<span class="ansi-blue-fg">(</span>race_times_plot<span class="ansi-blue-fg">)</span>
 
-<span class="ansi-green-fg">~/Documents/feed-me-back/examples/04-jupyter-nbgrader-python/autograded/bitdiddle/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_5</span><span class="ansi-blue-fg">(answer)</span>
+<span class="ansi-green-fg">~/Documents/jupyter-demo/jupyter-nbgrader-python/autograded/bitdiddle/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_5</span><span class="ansi-blue-fg">(answer)</span>
 <span class="ansi-green-intense-fg ansi-bold">     52</span>     <span class="ansi-green-fg">assert</span> <span class="ansi-blue-fg">(</span>answer<span class="ansi-blue-fg">.</span>encoding<span class="ansi-blue-fg">.</span>y<span class="ansi-blue-fg">.</span>shorthand <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#34;km5_time_minutes&#34;</span> <span class="ansi-green-fg">or</span> answer<span class="ansi-blue-fg">.</span>encoding<span class="ansi-blue-fg">.</span>y<span class="ansi-blue-fg">.</span>field <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#34;km5_time_minutes&#34;</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;km5_time_minutes should be mapped to the X-axis&#34;</span>
 <span class="ansi-green-intense-fg ansi-bold">     53</span>     <span class="ansi-green-fg">assert</span> answer<span class="ansi-blue-fg">.</span>mark<span class="ansi-blue-fg">.</span>type <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#34;circle&#34;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;mark_circle should be used to create the scatter plot&#34;</span>
 <span class="ansi-green-fg">---&gt; 54</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">assert</span> answer<span class="ansi-blue-fg">.</span>encoding<span class="ansi-blue-fg">.</span>y<span class="ansi-blue-fg">.</span>title <span class="ansi-blue-fg">!=</span> <span class="ansi-blue-fg">&#34;km5_time_minutes&#34;</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#34;Y axes should be more human readable than the column name&#34;</span>
@@ -14202,7 +14203,7 @@ NameError: name 't' is not defined</code></pre>
 <span class="ansi-green-intense-fg ansi-bold">      1</span> <span class="ansi-red-fg"># run this cell to test your answer to the question above</span>
 <span class="ansi-green-fg">----&gt; 2</span><span class="ansi-red-fg"> </span>t<span class="ansi-blue-fg">.</span>test_2_6<span class="ansi-blue-fg">(</span>answer2_6<span class="ansi-blue-fg">)</span>
 
-<span class="ansi-green-fg">~/Documents/feed-me-back/examples/04-jupyter-nbgrader-python/autograded/bitdiddle/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_6</span><span class="ansi-blue-fg">(answer)</span>
+<span class="ansi-green-fg">~/Documents/jupyter-demo/jupyter-nbgrader-python/autograded/bitdiddle/worksheet_01_python/tests_worksheet_01.py</span> in <span class="ansi-cyan-fg">test_2_6</span><span class="ansi-blue-fg">(answer)</span>
 <span class="ansi-green-intense-fg ansi-bold">     58</span> 
 <span class="ansi-green-intense-fg ansi-bold">     59</span> <span class="ansi-green-fg">def</span> test_2_6<span class="ansi-blue-fg">(</span>answer<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
 <span class="ansi-green-fg">---&gt; 60</span><span class="ansi-red-fg">     </span><span class="ansi-green-fg">assert</span> answer <span class="ansi-green-fg">is</span> <span class="ansi-green-fg">not</span> <span class="ansi-green-fg">None</span><span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">&#39;You should assign a value of &#34;A&#34;, &#34;B&#34;, &#34;C&#34;, or &#34;D&#34; to the answer2_6 object.&#39;</span>
